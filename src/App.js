@@ -160,7 +160,7 @@ function App() {
 
   return (
     <Container>
-      <Table style="border-color: #3c3c3c; color: #747474;">
+      <Table>
         <thead>
           <tr>
             <td>
