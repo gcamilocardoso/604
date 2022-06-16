@@ -87,7 +87,7 @@ function DiffItem(props) {
   const compResult = props.value - props.other;
   const style = compResult > 0 ? 'bg-success' : compResult < 0 ? 'bg-danger' : 'bg-secondary';
   return (
-    <span className={`badge ${style}`} style="padding-left: 10px; margin-left: 10px;">{props.text}</span>
+    <span className={`badge ${style}`}>{props.text}</span>
   )
 }
 
